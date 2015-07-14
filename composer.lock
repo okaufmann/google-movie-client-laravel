@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eeb4d87049c2bd82ab8066725e2df729",
+    "hash": "00d8193bda5ae1e8270430428fe09803",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -459,16 +459,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "dev-master",
+            "version": "5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "fe02ee7d6aeb498a9462366887f9cc797f5e7abf"
+                "reference": "5db115793201700886f60c895f4024d34188deee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/fe02ee7d6aeb498a9462366887f9cc797f5e7abf",
-                "reference": "fe02ee7d6aeb498a9462366887f9cc797f5e7abf",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/5db115793201700886f60c895f4024d34188deee",
+                "reference": "5db115793201700886f60c895f4024d34188deee",
                 "shasum": ""
             },
             "require": {
@@ -477,7 +477,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -497,37 +497,37 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-13 12:53:40"
+            "time": "2015-07-14 01:36:14"
         },
         {
             "name": "illuminate/support",
-            "version": "dev-master",
+            "version": "5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "d4e67b89b789dbcce4dba1724797ebbc37bd0793"
+                "reference": "2db917fa627b529a5023367cca68731b1ce50f46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/d4e67b89b789dbcce4dba1724797ebbc37bd0793",
-                "reference": "d4e67b89b789dbcce4dba1724797ebbc37bd0793",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/2db917fa627b529a5023367cca68731b1ce50f46",
+                "reference": "2db917fa627b529a5023367cca68731b1ce50f46",
                 "shasum": ""
             },
             "require": {
                 "danielstjules/stringy": "~1.8",
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
-                "illuminate/contracts": "5.2.*",
+                "illuminate/contracts": "5.1.*",
                 "php": ">=5.5.9"
             },
             "suggest": {
                 "jeremeamia/superclosure": "Required to be able to serialize closures (~2.0).",
-                "symfony/var-dumper": "Required to use the dd function (2.8.*)."
+                "symfony/var-dumper": "Required to use the dd function (2.7.*)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -550,7 +550,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-12 02:28:00"
+            "time": "2015-07-11 12:16:43"
         },
         {
             "name": "nesbot/carbon",
@@ -601,30 +601,30 @@
         },
         {
             "name": "okaufmann/google-movies-client",
-            "version": "v0.2.3",
+            "version": "v0.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/okaufmann/google-movie-client.git",
-                "reference": "404686d74174b82ff310143f49ac15587c0086d6"
+                "url": "https://github.com/okaufmann/google-movies-client.git",
+                "reference": "13d73c6cf63eba70658cb6ae0913947da7c42536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/okaufmann/google-movie-client/zipball/404686d74174b82ff310143f49ac15587c0086d6",
-                "reference": "404686d74174b82ff310143f49ac15587c0086d6",
+                "url": "https://api.github.com/repos/okaufmann/google-movies-client/zipball/13d73c6cf63eba70658cb6ae0913947da7c42536",
+                "reference": "13d73c6cf63eba70658cb6ae0913947da7c42536",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/cache-subscriber": "~0.1@dev",
                 "guzzlehttp/guzzle": "~5.0",
                 "guzzlehttp/log-subscriber": "~1.0",
-                "illuminate/support": "^5.2@dev",
+                "illuminate/support": "5.1.*",
                 "nesbot/carbon": "~1.19",
                 "php": ">=5.4",
-                "symfony/css-selector": "2.7.*|2.8.*",
-                "symfony/dom-crawler": "2.7.*|2.8.*",
+                "symfony/css-selector": "2.7.*",
+                "symfony/dom-crawler": "2.7.*",
                 "symfony/event-dispatcher": "~2.4",
                 "symfony/options-resolver": "~2.6",
-                "symfony/var-dumper": "2.7.*|2.8.*"
+                "symfony/var-dumper": "2.7.*"
             },
             "suggest": {
                 "monolog/monolog": "Required if you want to make use of logging features."
@@ -632,7 +632,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "GoogleMovieClient\\": "src/GoogleMovieClient/"
+                    "GoogleMoviesClient\\": "src/GoogleMoviesClient/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -642,18 +642,18 @@
             "authors": [
                 {
                     "name": "Oliver Kaufmann",
-                    "email": "mighty@mighty-code.com",
-                    "homepage": "https://github.com/mighty-code"
+                    "email": "support@mighty-code.com",
+                    "homepage": "https://github.com/okaufmann"
                 }
             ],
             "description": "Extended Client to fetch data from http://google.com/movies in an object oriented way.",
-            "homepage": "https://github.com/mighty-code/google-movie-client",
+            "homepage": "https://github.com/okaufmann/google-movie-client",
             "keywords": [
                 "client",
                 "movie",
                 "showtime"
             ],
-            "time": "2015-07-09 21:31:27"
+            "time": "2015-07-14 21:12:30"
         },
         {
             "name": "psr/log",
@@ -747,28 +747,28 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "2.8.x-dev",
+            "version": "2.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "5b0968a01e1f6fb724ecc8b7334d662ad4c8cda6"
+                "reference": "0b5c07b516226b7dd32afbbc82fe547a469c5092"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/5b0968a01e1f6fb724ecc8b7334d662ad4c8cda6",
-                "reference": "5b0968a01e1f6fb724ecc8b7334d662ad4c8cda6",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/0b5c07b516226b7dd32afbbc82fe547a469c5092",
+                "reference": "0b5c07b516226b7dd32afbbc82fe547a469c5092",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
@@ -796,28 +796,28 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-15 14:11:12"
+            "time": "2015-05-15 13:33:16"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "2.8.x-dev",
+            "version": "2.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "3aed431721a4a779d1ec30210bd53075da9623f5"
+                "reference": "9dabece63182e95c42b06967a0d929a5df78bc35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/3aed431721a4a779d1ec30210bd53075da9623f5",
-                "reference": "3aed431721a4a779d1ec30210bd53075da9623f5",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/9dabece63182e95c42b06967a0d929a5df78bc35",
+                "reference": "9dabece63182e95c42b06967a0d929a5df78bc35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "symfony/css-selector": "~2.3|~3.0.0",
-                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+                "symfony/css-selector": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
             },
             "suggest": {
                 "symfony/css-selector": ""
@@ -825,7 +825,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
@@ -849,7 +849,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:11:14"
+            "time": "2015-07-09 16:07:40"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1026,23 +1026,23 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "2.8.x-dev",
+            "version": "2.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "35d27bf5a71abd8f57f15ac4101492494ee0fb11"
+                "reference": "fde603d9f4b2418ff0f0315b93eb039c9aa41205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/35d27bf5a71abd8f57f15ac4101492494ee0fb11",
-                "reference": "35d27bf5a71abd8f57f15ac4101492494ee0fb11",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/fde603d9f4b2418ff0f0315b93eb039c9aa41205",
+                "reference": "fde603d9f4b2418ff0f0315b93eb039c9aa41205",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+                "symfony/phpunit-bridge": "~2.7"
             },
             "suggest": {
                 "ext-symfony_debug": ""
@@ -1050,7 +1050,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
@@ -1081,7 +1081,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2015-07-02 14:25:26"
+            "time": "2015-07-01 12:07:40"
         }
     ],
     "packages-dev": [
@@ -1141,26 +1141,26 @@
         },
         {
             "name": "illuminate/container",
-            "version": "dev-master",
+            "version": "5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "9c27569a4e639e6ffbab1f56b4c862f23890a4de"
+                "reference": "cfec9b4a49b0c4be1fb34d6ed948245ea36a1f32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/9c27569a4e639e6ffbab1f56b4c862f23890a4de",
-                "reference": "9c27569a4e639e6ffbab1f56b4c862f23890a4de",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/cfec9b4a49b0c4be1fb34d6ed948245ea36a1f32",
+                "reference": "cfec9b4a49b0c4be1fb34d6ed948245ea36a1f32",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.2.*",
+                "illuminate/contracts": "5.1.*",
                 "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -1180,32 +1180,32 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-13 22:48:28"
+            "time": "2015-06-13 00:40:15"
         },
         {
             "name": "illuminate/events",
-            "version": "dev-master",
+            "version": "5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "126cd80e9d36e983ccfc9bc82f2daaa3fee8914c"
+                "reference": "5e03a80092abbb1746a56e05f02997b71118c701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/126cd80e9d36e983ccfc9bc82f2daaa3fee8914c",
-                "reference": "126cd80e9d36e983ccfc9bc82f2daaa3fee8914c",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/5e03a80092abbb1746a56e05f02997b71118c701",
+                "reference": "5e03a80092abbb1746a56e05f02997b71118c701",
                 "shasum": ""
             },
             "require": {
-                "illuminate/container": "5.2.*",
-                "illuminate/contracts": "5.2.*",
-                "illuminate/support": "5.2.*",
+                "illuminate/container": "5.1.*",
+                "illuminate/contracts": "5.1.*",
+                "illuminate/support": "5.1.*",
                 "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -1225,7 +1225,7 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-29 14:53:02"
+            "time": "2015-06-29 08:51:25"
         },
         {
             "name": "monolog/monolog",
@@ -2206,6 +2206,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.5.0"
+    },
     "platform-dev": []
 }
