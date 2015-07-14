@@ -1,0 +1,35 @@
+{
+    "name": "okaufmann/google-movies-client-laravel",
+    "description": "Package to integrate google movies client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Kaufmann",
+            "email": "support@mighty-code.com",
+            "homepage": "https://github.com/okaufmann"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "okaufmann/google-movies-client": "0.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "symfony/event-dispatcher": "~2.0",
+        "illuminate/events": "~5.0",
+        "doctrine/cache": ">=1.3.0",
+        "monolog/monolog": ">=1.7.0"
+    },
+    "suggest": {
+        "doctrine/cache": "Required if you want to make use of caching features.",
+        "monolog/monolog": "Required if you want to make use of logging features."
+    },
+    "autoload": {
+        "psr-4": {
+            "GoogleMoviesClient\\Laravel\\": "src/"
+        }
+    }
+}
