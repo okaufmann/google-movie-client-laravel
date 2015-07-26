@@ -21,3 +21,12 @@ notifications:
   email:
     on_failure: always
     on_success: never
+
+build:
+    tests:
+        override:
+            -
+                command: 'phpunit --coverage-clover=coveragefile'
+                coverage:
+                    file: 'coveragefile'
+                    format: 'php-clover'
