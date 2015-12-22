@@ -41,7 +41,7 @@ abstract class EventDispatcherAdapter implements SymfonyDispatcher
      * @param string $eventName The name of the event to dispatch. The name of
      *                          the event is the name of the method that is
      *                          invoked on listeners.
-     * @param Event  $event     The event to pass to the event handlers/listeners.
+     * @param Event  $event The event to pass to the event handlers/listeners.
      *                          If not supplied, an empty Event instance is created.
      *
      * @return Event
@@ -69,8 +69,8 @@ abstract class EventDispatcherAdapter implements SymfonyDispatcher
      * Adds an event listener that listens on the specified events.
      *
      * @param string   $eventName The event to listen on
-     * @param callable $listener  The listener
-     * @param int      $priority  The higher this value, the earlier an event
+     * @param callable $listener The listener
+     * @param int      $priority The higher this value, the earlier an event
      *                            listener will be triggered in the chain (defaults to 0)
      *
      * @api
@@ -98,7 +98,7 @@ abstract class EventDispatcherAdapter implements SymfonyDispatcher
     /**
      * Removes an event listener from the specified events.
      *
-     * @param string   $eventName           The event to remove a listener from
+     * @param string   $eventName The event to remove a listener from
      * @param callable $listenerToBeRemoved The listener to remove
      */
     public function removeListener($eventName, $listenerToBeRemoved)
@@ -139,5 +139,20 @@ abstract class EventDispatcherAdapter implements SymfonyDispatcher
     {
         return ($this->symfonyDispatcher->hasListeners($eventName) ||
             $this->laravelDispatcher->hasListeners($eventName));
+    }
+
+    /**
+     * Gets the listener priority for a specific event.
+     *
+     * Returns null if the event or the listener does not exist.
+     *
+     * @param string   $eventName The name of the event
+     * @param callable $listener The listener
+     *
+     * @return int|null The event listener priority
+     */
+    public function getListenerPriority($eventName, $listener)
+    {
+        return $this->symfonyDispatcher->getListenerPriority($eventName, $listener);
     }
 }
