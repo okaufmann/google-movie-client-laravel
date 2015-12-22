@@ -70,7 +70,7 @@ class GoogleMoviesClientServiceProvider extends ServiceProvider
         );
 
         // Setup default configurations for the GoogleMoviesClient Client
-        $this->app->bindShared('GoogleMoviesClient\Client', function () {
+        $this->app->singleton('GoogleMoviesClient\Client', function () {
             $config = $this->provider->config();
             $options = $config['options'];
 
