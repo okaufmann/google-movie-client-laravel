@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "076c621c4d5d0f2eb72359bf7835846b",
-    "content-hash": "ebaab57b8a676c742b4f0b5a256d90dc",
+    "hash": "ec3337e575235564f380ab1a4ffd7370",
+    "content-hash": "f0f4737d28c18bb119bd543a585efff5",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -450,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "224e5f0b3275149151eacf8a268d53246383f0d8"
+                "reference": "9504c68b83ff9b1ada6f676bd1b4ff4a3e48399d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/224e5f0b3275149151eacf8a268d53246383f0d8",
-                "reference": "224e5f0b3275149151eacf8a268d53246383f0d8",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/9504c68b83ff9b1ada6f676bd1b4ff4a3e48399d",
+                "reference": "9504c68b83ff9b1ada6f676bd1b4ff4a3e48399d",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-07 16:09:55"
+            "time": "2015-12-22 14:39:56"
         },
         {
             "name": "nesbot/carbon",
@@ -553,12 +553,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/okaufmann/google-movies-client.git",
-                "reference": "46f85ebae8274eea81ea1d7702272ecf7bfd83b3"
+                "reference": "fbc534b76202f47a5a6554152f07a46fbc33ac8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/okaufmann/google-movies-client/zipball/46f85ebae8274eea81ea1d7702272ecf7bfd83b3",
-                "reference": "46f85ebae8274eea81ea1d7702272ecf7bfd83b3",
+                "url": "https://api.github.com/repos/okaufmann/google-movies-client/zipball/fbc534b76202f47a5a6554152f07a46fbc33ac8a",
+                "reference": "fbc534b76202f47a5a6554152f07a46fbc33ac8a",
                 "shasum": ""
             },
             "require": {
@@ -568,8 +568,8 @@
                 "illuminate/support": "5.1.*|5.2.*",
                 "nesbot/carbon": "~1.19",
                 "php": ">=5.4",
-                "symfony/css-selector": "~2.7",
-                "symfony/dom-crawler": "~2.7",
+                "symfony/css-selector": "~2.7|3.0.*",
+                "symfony/dom-crawler": "2.7.*|3.0.*",
                 "symfony/event-dispatcher": "~2.4",
                 "symfony/options-resolver": "~2.6",
                 "symfony/var-dumper": "~2.7"
@@ -601,7 +601,7 @@
                 "movie",
                 "showtime"
             ],
-            "time": "2015-12-22 02:14:24"
+            "time": "2015-12-22 02:22:11"
         },
         {
             "name": "psr/log",
@@ -695,25 +695,25 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "2.8.x-dev",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "eaa3320e32f09a01dc432c6efbe8051aee59cfef"
+                "reference": "4613311fd46e146f506403ce2f8a0c71d402d2a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/eaa3320e32f09a01dc432c6efbe8051aee59cfef",
-                "reference": "eaa3320e32f09a01dc432c6efbe8051aee59cfef",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/4613311fd46e146f506403ce2f8a0c71d402d2a3",
+                "reference": "4613311fd46e146f506403ce2f8a0c71d402d2a3",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -744,28 +744,28 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-05 17:37:59"
+            "time": "2015-12-05 17:45:07"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "2.8.x-dev",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "740c98235f5b6e2b0b13df2fb97c7a1c7d1a18fc"
+                "reference": "98f0ffc93de1149f4c18eda2075c92428df1b73c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/740c98235f5b6e2b0b13df2fb97c7a1c7d1a18fc",
-                "reference": "740c98235f5b6e2b0b13df2fb97c7a1c7d1a18fc",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/98f0ffc93de1149f4c18eda2075c92428df1b73c",
+                "reference": "98f0ffc93de1149f4c18eda2075c92428df1b73c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": ">=5.5.9",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
-                "symfony/css-selector": "~2.8|~3.0.0"
+                "symfony/css-selector": "~2.8|~3.0"
             },
             "suggest": {
                 "symfony/css-selector": ""
@@ -773,7 +773,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -800,7 +800,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-02 20:29:39"
+            "time": "2015-11-02 20:34:04"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1164,12 +1164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "c8080c30c1104ee826ffba2be364e25287e6c54d"
+                "reference": "569c79182c3b367c0642401f9525c65070600c48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/c8080c30c1104ee826ffba2be364e25287e6c54d",
-                "reference": "c8080c30c1104ee826ffba2be364e25287e6c54d",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/569c79182c3b367c0642401f9525c65070600c48",
+                "reference": "569c79182c3b367c0642401f9525c65070600c48",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-17 20:45:15"
+            "time": "2015-12-22 02:46:42"
         },
         {
             "name": "illuminate/events",
@@ -1248,21 +1248,21 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "dev-master",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "cb641a8a1910ab9d675598d3f405e7252b6cd856"
+                "reference": "592af02d0c9a7f6c8a345958d8db5d068cf51147"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/cb641a8a1910ab9d675598d3f405e7252b6cd856",
-                "reference": "cb641a8a1910ab9d675598d3f405e7252b6cd856",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/592af02d0c9a7f6c8a345958d8db5d068cf51147",
+                "reference": "592af02d0c9a7f6c8a345958d8db5d068cf51147",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
-                "psr/log": "^1.0"
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
             },
             "provide": {
                 "psr/log-implementation": "1.0.0"
@@ -1273,7 +1273,8 @@
                 "graylog2/gelf-php": "~1.0",
                 "jakub-onderka/php-parallel-lint": "0.9",
                 "php-console/php-console": "^3.1.3",
-                "phpunit/phpunit": "^5.0",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
                 "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "swiftmailer/swiftmailer": "~5.3",
@@ -1321,7 +1322,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-12-18 18:24:26"
+            "time": "2015-12-18 18:24:15"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2179,12 +2180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "8bae579c7afa252c055855f071c751eb75dcf6c4"
+                "reference": "1fc25bfc8cdf663a1d1474b31a0657dc2d48c246"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/8bae579c7afa252c055855f071c751eb75dcf6c4",
-                "reference": "8bae579c7afa252c055855f071c751eb75dcf6c4",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/1fc25bfc8cdf663a1d1474b31a0657dc2d48c246",
+                "reference": "1fc25bfc8cdf663a1d1474b31a0657dc2d48c246",
                 "shasum": ""
             },
             "require": {
@@ -2220,7 +2221,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-05 11:13:35"
+            "time": "2015-12-22 10:39:31"
         }
     ],
     "aliases": [],
